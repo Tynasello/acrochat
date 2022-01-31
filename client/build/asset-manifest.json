@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/acrochat/static/css/main.1a8a0596.css",
-    "main.js": "/acrochat/static/js/main.1129a4fb.js",
+    "main.js": "/acrochat/static/js/main.74bdec83.js",
     "static/js/787.c4e7f8f9.chunk.js": "/acrochat/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/acrochat/index.html",
     "main.1a8a0596.css.map": "/acrochat/static/css/main.1a8a0596.css.map",
-    "main.1129a4fb.js.map": "/acrochat/static/js/main.1129a4fb.js.map",
+    "main.74bdec83.js.map": "/acrochat/static/js/main.74bdec83.js.map",
     "787.c4e7f8f9.chunk.js.map": "/acrochat/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a8a0596.css",
-    "static/js/main.1129a4fb.js"
+    "static/js/main.74bdec83.js"
   ]
 }

@@ -49,7 +49,7 @@ function App() {
         variant="outlined"
         style={{
           marginTop: '2rem',
-          minHeight: '500px',
+          height: '500px',
           width: '500px',
         }}
       >
