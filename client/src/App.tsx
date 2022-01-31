@@ -17,7 +17,7 @@ function App() {
   const [chat, setChat] = useState<state[]>([])
 
   useEffect(() => {
-    socketRef.current = io('http://localhost:3000')
+    socketRef.current = io('https://acrochat-server.herokuapp.com/')
 
     socketRef.current.on('message', ({ name, message }: state) => {
       setChat([...chat, { name, message }])

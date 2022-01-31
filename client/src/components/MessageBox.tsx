@@ -21,7 +21,7 @@ function MessageBox({ socketRef, state, setState }: MessageBoxProps) {
   const onSend = (e: SyntheticEvent) => {
     e.preventDefault()
     const { name, message } = state
-
+    if (!message || !name) return
     socketRef.current.emit('message', { name, message })
     setState({ ...state, message: '' })
   }
